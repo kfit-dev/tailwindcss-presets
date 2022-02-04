@@ -1,46 +1,42 @@
-# Fave Tailwind Presets
+# Fave Tailwindcss Presets
 
-Fave Tailwind Presets provides a set of preset css styling inlcuding primary color that default uses by Fave. 
+A plugin provides a set of tailwindcss presets that uses by Fave. 
 
 ## Presets
 
-- Font Family - ```inter```
-- Primary Color -  ```primary-pink ```
-- Theme Color
-    -  ```white ```
-    -  ```slate-100,700```
-    -  ```neutral-100,300,400,500,700```
-    -  ```yellow-400```
-    -  ```green-400```
-- BoxShadow ```BoxShadow-sm,md,lg,xl,2xl,inner```
-- Element Class ```.h1,.h2.h3,.body,.caption,.title```
+- Font Family - `inter`
+- Primary Color - `primary-pink`
+- Theme Colors
+    -  `white`
+    -  `slate: 100, 700`
+    -  `neutral: 100, 300, 400, 500, 700`
+    -  `yellow: 400`
+    -  `green: 400`
+- Box Shadow `sm, md, lg, xl, 2xl, inner`
+- Element Class `.h1, .h2, .h3, .body, .caption, .title`
 
 ## Installation
 
-Fave-Preset requires tailwinds css to run.
-
-Install the dependencies and devDependencies and start connect the presets package.
+Install the plugin from npm
 
 ```sh
-cd Your Project 
+# Using npm
+npm install -D fave-tailwindcss-presets
+
+# Using yarn
+yarn add -D fave-tailwindcss-presets
 ```
 
-Install Package
+Then add the plugin to your `tailwind.config.js` file:
 
 ```sh
-npm install --Fave-Preset
-```
-or
-```sh
-yarn install --Fave-Preset
-```
-
-Open ```Tailwind.Config.Js``` in your project root and include the package into your config.
-
-```sh
+// tailwind.config.js
+module.exports = {
   presets: [
-    require('./fave-preset'),
+    require('fave-tailwindcss-presets'),
   ],
+	...
+}
 ```
 
-Congratulation, your have already include the Fave Preset into your project.
+Congratulation, your have already included the Fave Tailwindcss Preset into your project.
