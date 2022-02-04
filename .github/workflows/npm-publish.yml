@@ -44,7 +44,7 @@ jobs:
         env:
           CI: true 
           
-      - name: Pblish
+      - name: Publish ${{secrets.NPM_TOKEN}}
         if: ${{ github.ref == 'refs/heads/master' }}
         run: npm publish
         env:
