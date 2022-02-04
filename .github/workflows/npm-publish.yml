@@ -51,3 +51,4 @@ jobs:
         env:
           CI: true
           NODE_AUTH_TOKEN: ${{secrets.PERSONAL_NPM_TOKEN}}
+          NPM_TOKEN: ${{secrets.PERSONAL_NPM_TOKEN}}
