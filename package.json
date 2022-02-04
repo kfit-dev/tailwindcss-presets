@@ -2,6 +2,10 @@
   "name": "fave-tailwindcss-presets",
   "version": "0.1.0",
   "description": "A Tailwind CSS presets that uses by Fave.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kfit-dev/tailwindcss-presets.git"
+  },
   "main": "src/index.js",
   "files": [
     "src/*.js"
