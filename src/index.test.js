@@ -104,85 +104,108 @@ test('specificity', async () => {
          --tw-backdrop-sepia: ;
       }
         .border-primary {
-            border-color: rgba(222, 32, 106, 1);
+            --tw-border-opacity: 1;
+            border-color: rgb(222 32 106 / var(--tw-border-opacity));
         }
         .border-yellow-400 {
-            border-color: rgba(251, 191, 36, 1);
+            --tw-border-opacity: 1;
+            border-color: rgb(251 191 36 / var(--tw-border-opacity));
         }
         .border-green-500 {
-            border-color: rgba(16, 185, 129, 1);
+            --tw-border-opacity: 1;
+            border-color: rgb(16 185 129 / var(--tw-border-opacity));
         }
         .border-white {
              --tw-border-opacity: 1;
              border-color: rgb(255 255 255 / var(--tw-border-opacity));
         }
         .bg-primary {
-            background-color: rgba(222, 32, 106, 1);
+            --tw-bg-opacity: 1;
+            background-color: rgb(222 32 106 / var(--tw-bg-opacity));
         }
         .bg-yellow-400 {
-            background-color: rgba(251, 191, 36, 1);
+            --tw-bg-opacity: 1;
+            background-color: rgb(251 191 36 / var(--tw-bg-opacity));
         }
         .bg-green-500 {
-            background-color: rgba(16, 185, 129, 1);
+            --tw-bg-opacity: 1;
+            background-color: rgb(16 185 129 / var(--tw-bg-opacity));
         }
         .bg-white {
             --tw-bg-opacity: 1;
             background-color: rgb(255 255 255 / var(--tw-bg-opacity));
         }
         .bg-slate-100 {
-            background-color: rgba(241, 245, 249, 1);
+            --tw-bg-opacity: 1;
+            background-color: rgb(241 245 249 / var(--tw-bg-opacity));
         }
         .bg-slate-700 {
-            background-color: rgba(51, 65, 85, 1);
+            --tw-bg-opacity: 1;
+            background-color: rgb(51 65 85 / var(--tw-bg-opacity));
         }
         .bg-neutral-100 {
-            background-color: rgba(245, 245, 245, 1);
+            --tw-bg-opacity: 1;
+            background-color: rgb(245 245 245 / var(--tw-bg-opacity));
         }
         .bg-neutral-300 {
-            background-color: rgba(212, 212, 212, 1);
+            --tw-bg-opacity: 1;
+            background-color: rgb(212 212 212 / var(--tw-bg-opacity));
         }
         .bg-neutral-400 {
-            background-color: rgba(163, 163, 163, 1);
+            --tw-bg-opacity: 1;
+            background-color: rgb(163 163 163 / var(--tw-bg-opacity));
         }
         .bg-neutral-500 {
-            background-color: rgba(115, 115, 115, 1);
+            --tw-bg-opacity: 1;
+            background-color: rgb(115 115 115 / var(--tw-bg-opacity));
         }
         .bg-neutral-700 {
-            background-color: rgba(64, 64, 64, 1);
+            --tw-bg-opacity: 1;
+            background-color: rgb(64 64 64 / var(--tw-bg-opacity));
         }
         .text-primary {
-            color: rgba(222, 32, 106, 1);
+            --tw-text-opacity: 1;
+            color: rgb(222 32 106 / var(--tw-text-opacity));
         }
         .text-yellow-400 {
-            color: rgba(251, 191, 36, 1);
+            --tw-text-opacity: 1;
+            color: rgb(251 191 36 / var(--tw-text-opacity));
         }
         .text-green-500 {
-            color: rgba(16, 185, 129, 1);
+            --tw-text-opacity: 1;
+            color: rgb(16 185 129 / var(--tw-text-opacity));
         }
         .text-white {
             --tw-text-opacity: 1;
             color: rgb(255 255 255 / var(--tw-text-opacity));
         }
         .text-slate-100 {
-            color: rgba(241, 245, 249, 1);
+            --tw-text-opacity: 1;
+            color: rgb(241 245 249 / var(--tw-text-opacity));
         }
         .text-slate-700 {
-            color: rgba(51, 65, 85, 1);
+            --tw-text-opacity: 1;
+            color: rgb(51 65 85 / var(--tw-text-opacity));
         }
         .text-neutral-100 {
-            color: rgba(245, 245, 245, 1);
+            --tw-text-opacity: 1;
+            color: rgb(245 245 245 / var(--tw-text-opacity));
         }
         .text-neutral-300 {
-            color: rgba(212, 212, 212, 1);
+            --tw-text-opacity: 1;
+            color: rgb(212 212 212 / var(--tw-text-opacity));
         }
         .text-neutral-400 {
-            color: rgba(163, 163, 163, 1);
+            --tw-text-opacity: 1;
+            color: rgb(163 163 163 / var(--tw-text-opacity));
         }
         .text-neutral-500 {
-            color: rgba(115, 115, 115, 1);
+            --tw-text-opacity: 1;
+            color: rgb(115 115 115 / var(--tw-text-opacity));
         }
         .text-neutral-700 {
-            color: rgba(64, 64, 64, 1);
+            --tw-text-opacity: 1;
+            color: rgb(64 64 64 / var(--tw-text-opacity));
         }
         .shadow-sm {
             --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -220,15 +243,15 @@ test('specificity', async () => {
             box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
         }
         .shadow-primary {
-            --tw-shadow-color: rgba(222, 32, 106, 1);
+            --tw-shadow-color: rgb(222, 32, 106);
             --tw-shadow: var(--tw-shadow-colored);
         }
         .shadow-yellow-400 {
-            --tw-shadow-color: rgba(251, 191, 36, 1);
+            --tw-shadow-color: rgb(251, 191, 36);
             --tw-shadow: var(--tw-shadow-colored);
         }
         .shadow-green-500 {
-            --tw-shadow-color: rgba(16, 185, 129, 1);
+            --tw-shadow-color: rgb(16, 185, 129);
             --tw-shadow: var(--tw-shadow-colored);
         }
         .shadow-white {
@@ -236,31 +259,31 @@ test('specificity', async () => {
             --tw-shadow: var(--tw-shadow-colored);
         }
         .shadow-slate-100 {
-            --tw-shadow-color: rgba(241, 245, 249, 1);
+            --tw-shadow-color: rgb(241, 245, 249);
             --tw-shadow: var(--tw-shadow-colored);
         }
         .shadow-slate-700 {
-            --tw-shadow-color: rgba(51, 65, 85, 1);
+            --tw-shadow-color: rgb(51, 65, 85);
             --tw-shadow: var(--tw-shadow-colored);
         }
         .shadow-neutral-100 {
-            --tw-shadow-color: rgba(245, 245, 245, 1);
+            --tw-shadow-color: rgb(245, 245, 245);
             --tw-shadow: var(--tw-shadow-colored);
         }
         .shadow-neutral-300 {
-            --tw-shadow-color: rgba(212, 212, 212, 1);
+            --tw-shadow-color: rgb(212, 212, 212);
             --tw-shadow: var(--tw-shadow-colored);
         }
         .shadow-neutral-400 {
-            --tw-shadow-color: rgba(163, 163, 163, 1);
+            --tw-shadow-color: rgb(163, 163, 163);
             --tw-shadow: var(--tw-shadow-colored);
         }
         .shadow-neutral-500 {
-            --tw-shadow-color: rgba(115, 115, 115, 1);
+            --tw-shadow-color: rgb(115, 115, 115);
             --tw-shadow: var(--tw-shadow-colored);
         }
         .shadow-neutral-700 {
-            --tw-shadow-color: rgba(64, 64, 64, 1);
+            --tw-shadow-color: rgb(64, 64, 64);
             --tw-shadow: var(--tw-shadow-colored);
         }
         .h1 {
